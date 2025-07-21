@@ -1,0 +1,62 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.checkout-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.place-order-btn {
+  margin-top: 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.place-order-btn:hover {
+  background-color: #1e40af;
+}
+
+.payment-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.payment-section label {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+.payment-section input[type="radio"] {
+  margin-right: 8px;
+}
+

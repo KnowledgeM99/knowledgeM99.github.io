@@ -1,0 +1,63 @@
+.clothing-wrapper {
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .clothing-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+  }
+  
+  .clothing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 12px 0 6px;
+  }
+  
+  .product-desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .product-price {
+    color: #1e40af;
+    font-weight: 600;
+  }
+  
+  .product-size {
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  

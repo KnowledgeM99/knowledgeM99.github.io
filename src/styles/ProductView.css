@@ -1,0 +1,114 @@
+.product-view-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.product-description {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.product-price {
+  font-size: 1.4rem;
+  color: #1e40af;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.selector-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.selector-label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.selector-radio {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: all 0.2s ease;
+}
+
+.selector-radio.selected {
+  background-color: #1e40af;
+  color: white;
+  border-color: #1e40af;
+}
+
+.selector-radio:hover {
+  border-color: #2563eb;
+}
+
+.add-to-cart-btn {
+  background-color: #1e40af;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1a3696;
+}
+
+.back-btn {
+  margin-bottom: 1rem;
+  background: none;
+  border: none;
+  color: #1e40af;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.back-btn:hover {
+  color: #1a3696;
+}
+

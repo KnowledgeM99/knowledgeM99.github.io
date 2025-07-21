@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Fonts and CSS Variables (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
+
+/* Custom Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f3f4f6; /* Tailwind: bg-gray-100 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: #1f2937; /* Tailwind: text-gray-800 */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #2563eb; /* Tailwind: text-blue-600 */
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb; /* Tailwind: border-gray-200 */
+}
+
+/* Product Card */
+.product-card {
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+  height: 160px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.product-card h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.product-card p {
+  font-size: 0.9rem;
+  color: #6b7280; /* Tailwind: text-gray-500 */
+}
+
+.product-price {
+  color: #2563eb; /* Tailwind: text-blue-600 */
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Product View Page */
+.product-view img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-view button {
+  background-color: #2563eb; /* Tailwind: bg-blue-600 */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.product-view button:hover {
+  background-color: #1d4ed8; /* Tailwind: bg-blue-700 */
+}

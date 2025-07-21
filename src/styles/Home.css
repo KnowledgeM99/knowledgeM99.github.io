@@ -1,0 +1,123 @@
+.home-wrapper {
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f4f8;
+  padding: 40px 60px;
+  margin-bottom: 60px;
+  height: 300px;
+  border-radius: 0; /* Make it rectangular */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hero-text {
+  max-width: 50%;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  background-color: #1e40af;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #1a3696;
+}
+
+.carousel {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  max-width: 45%;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+  
+  .featured-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .category-card p {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #374151;
+  }
+
+  .carousel-wrapper {
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.carousel.auto-scroll {
+  display: flex;
+  gap: 10px;
+  animation: scrollCarousel 15s linear infinite;
+  width: max-content;
+}
+
+.carousel.auto-scroll img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Animation */
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
